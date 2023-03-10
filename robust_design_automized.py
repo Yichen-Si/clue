@@ -7,11 +7,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-o", "--path", type=str, help="Prefix of the output", default="./")
 parser.add_argument("-N", "--indiv", type=int, help="Number of individuals", default=64)
 parser.add_argument("-C", "--conditions", type=int, help="Number of experimental conditions", default=6 )
-parser.add_argument("-P", "--pools", type=int, help="Fixed number of pools" )
+parser.add_argument("-P", "--pools", type=int, help="Fixed number of pools", default = None)
 parser.add_argument("-m", "--min_dist", type=int, help="Robust parameter: minimum number of pairwise distance between individual profiles", default=2 )
-parser.add_argument("--Gurobi", action='store_true', help="Is the Gurobi solver set up in the system?")
 parser.add_argument("-t", "--max_threads", type=int, help="Number of threads to use", default=-1 )
 parser.add_argument("--max_seconds", type=int, help="Maximum seconds to run each ILP", default=60 )
+parser.add_argument("--Gurobi", action='store_true', help="Is the Gurobi solver set up in the system?")
 args = parser.parse_args()
 
 
