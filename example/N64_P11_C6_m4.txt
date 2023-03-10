@@ -1,0 +1,34 @@
+Number of pools: 11; minimum pairwise distance: 4
+
+Number of occurrences in each pool:
+
+Pool	a	b	c	d	e	f
+0	6	6	6	6	6	6
+1	6	6	6	6	6	6
+2	5	6	6	5	6	6
+3	6	6	6	6	6	5
+4	6	6	5	6	6	6
+5	6	6	5	6	6	5
+6	5	6	6	6	6	6
+7	6	6	6	6	5	6
+8	6	5	6	6	6	6
+9	6	6	6	5	6	6
+10	6	5	6	6	5	6
+
+Spectrum of pairwise overlap:
+
+0:0	1:0	2:465	3:621	4:930	5:0
+
+Design matrix:
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . e c b d e d a b d c a f a f b c e d e d c f e f e b f a a b b c c f d a 
+. . . . . . . . . . e d b a a c b d b c f d e b f a c c . . . . . . . . . . . . . . . . . . c c b b f e d d a f d e a e f a e f 
+. . . . a f e f e f . . . . . . . . d e c f d a c c b a . . . . . . . . b d f d b a c e b e . . . . . . . . . . b c e a d b f c 
+. e c f . . d a a c . . . b e d f b . . . . . d b f d b . . . c c a d a . . . . . e e f a b . . . . . b f c c e . . . . . e a d 
+e . b a c c . . f a . f a . . b d a . . d a c . . . e f . b e . . f b d . . d e f . . . c c . . f a d . . . e b . . . d b . . e 
+d a . e . b . c . b . a f e d . . f c a . . a . . d . e f . f . b . e c . b . c d . f b . . a a . . b . . e . d . . d . e . c . 
+c . f d . a a b b . b . c f f . c . . b e e . . a . . d d e . b d . . e f . c . e . . d . a . b . e c . a . d . . f f . . c . . 
+. d a c f d b . . e a e d . b e . . f . . c . . d b f . b d c e . . f . . a b . . c . a f . . e d . . c . f b . c a . . a . . . 
+a c e . e e f d . . d c . . c . a e a d b . . f . . a . a f . . f c c . c e . b . d . . . f f . e . a d b . . . . d . b . . b . 
+f b d . b . . e d d f . e d . f . c e . a . f c e . . . c . a a . b . f e . e a . b d . . . b . a c . . c a . . f . c . . . . b 
+b f . b d . c . c . c b . c . a e . . f . b b e . e . . . a d f a e . . a f . . c . a . d . d f . d . a . . . c e . . f . d . . 

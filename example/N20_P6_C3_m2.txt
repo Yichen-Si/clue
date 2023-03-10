@@ -1,0 +1,24 @@
+Number of pools: 6; minimum pairwise distance: 2
+
+Number of occurrences in each pool:
+
+Pool	a	b	c
+0	3	3	4
+1	3	4	3
+2	3	3	4
+3	3	4	3
+4	4	3	3
+5	4	3	3
+
+Spectrum of pairwise overlap:
+
+0:10	1:90	2:90
+
+Design matrix:
+
+. . . . . . . . . . c a b a b a b c c c 
+. . . . c a b b c a . . . . . . c b b a 
+. a a b . . . c a b . . . c c c . . . b 
+b . b a . b a . . c . c c . . b . . a . 
+c b . c a . c . b . b . a . a . . a . . 
+a c c . b c . a . . a b . b . . a . . . 
